@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* CSS Externo */
+*{
+  padding: 8px 5px 8px 5px;
+}
+
+article {
+  background-color: green;
+}
+
+/* Os ids são identificados no CSS a partir do
+		   símbolo "#". */
+#title {
+	background-color: #006600;
+	font-size: 30px;
+	text-align: center;
+}
+
+/* As classes são identificadas no CSS a partir do "." */
+.paragraph {
+	text-align: justify;
+	text-indent: 20px;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	background-color: #FFB74D;
+}
+
+textarea {
+	resize: none;
+}
+#titleFormulary {
+	text-align: center;
+}
+#center {
+	background-color: #EEEEEE;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#simpleTable > table, td, th {
+  border: 5px #000000 solid;
+  border-collapse: collapse;
+}
+
+#tableColspanRowspan > table, td, th {
+	border: 5px #000000 solid;
+	border-collapse: collapse;
+}

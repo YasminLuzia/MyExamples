@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Não esquecer -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+
+    <!-- SEO meta TAGs -->
+		<meta name="description" content="Examples for studies HTML5 basics: HTML5 + META TAGs + OG + CSS" />
+		<meta name="keywords" content="HTML5, CSS, TAGs, Study, SEO" />
+		<meta name="author" content="" />
+
+    <!-- Meta TAGs OG (Open Graph) para integração com Facebook e Twitter -->
+		<meta property="og:title" content=""/>
+		<meta property="og:image" content=""/>
+		<meta property="og:url" content=""/>
+		<meta property="og:site_name" content=""/>
+		<meta property="og:description" content=""/>
+		<meta name="twitter:title" content="" />
+		<meta name="twitter:image" content="" />
+		<meta name="twitter:url" content="" />
+		<meta name="twitter:card" content="" />
+
+    <!-- CSS incorporado -->
+		<style type="text/css">
+    	* {
+    		margin: 0 auto;
+    	}
+    	body {
+    		background-color: #FFB74D;
+    	}
+    </style>
+
+    <!-- CSS Externo -->
+		<link rel="stylesheet" type="text/css" href="style/style.css"/>
+
+    <title>Example HTML5 basics: HTML5 + META TAGs + OG + CSS</title>
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <!-- Lista não ordenada -->
+        <ul>
+          <li>Home</li>
+          <li>Contact</li>
+        </ul>
+        <!-- Lista ordenada -->
+        <ol>
+          <li>Home</li>
+          <li>Contact</li>
+        </ol>
+      </nav>
+    </header>
+
+    <section>
+      <!-- CSS Inline -->
+      <h1 style="font-size: 42px; text-align: center;">Title of the articles</h1>
+
+      <article>
+        <header>
+          <h2 id="title">Title of the first article</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+      <article>
+        <header>
+          <h2 id="title">Title of the second article</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+
+      <!-- Formulário -->
+      <div>
+      	<h1 id="titleFormulary">Sign up</h1>
+
+      	<div id="center">
+      	  <form method="post" action="#">
+      	  	<div>
+      				<input type="text" name="txtname" placeholder="Type your name" autofocus="autofocus">
+      			</div>
+      			<div>
+      				<input type="password" name="txtpassword" placeholder="Type your password">
+      			</div>
+      			<div>
+      				<label>Marital status</label>
+      				<select name="selectmaritalstatus">
+      				  <option value="" selected="selected">Select</option>
+      				  <option value="single">Single</option>
+      				  <option value="married">Married</option>
+      				  <option value="complicated">Complicated</option>
+      				</select>
+      			</div>
+      			<div>
+      				<label><input type="radio" name="rdsex" value="male">Male</label>
+      				<label><input type="radio" name="rdsex" value="female">Female</label>
+      			</div>
+      			<div>
+      				<label>Sign up to our Newsletter now!</label>
+      				<input type="checkbox" name="chsim">
+      			</div>
+      			<div>
+      				<label>Observations</label>
+      				<textarea placeholder="Obs..." name="txtobs" maxlength="140"></textarea>
+      			</div>
+      			<div>
+      				<label>Choose your favorite color</label>
+      				<input type="color" name="color">
+      			</div>
+      			<div>
+      				<input type="date" name="data">
+      			</div>
+      			<div>
+      				<label>Cars owned</label>
+      				<input type="number" id="number" name="quantitycars" min="1" max="5">
+      			</div>
+      			<div>
+      				<input type="submit" value="Sign up">
+      				<input type="reset" value="Clear">
+      			</div>
+      	  </form>
+        </div>
+      </div>
+
+      <div id="simpleTable">
+        <table>
+    			<caption>Students</caption>
+
+    			<thead>
+    				<tr>
+    					<th>Name</th>
+    					<th>Email</th>
+    					<th>RG</th>
+    					<th>CPF</th>
+    				</tr>
+    			</thead>
+    			<tfoot>
+    				<tr>
+    					<th>Name</th>
+    					<th>Email</th>
+    					<th>RG</th>
+    					<th>CPF</th>
+    				</tr>
+    			</tfoot>
+    			<tbody>
+    				<tr>
+    					<td>Zé</td>
+    					<td>ze@gmail.com</td>
+    					<td>1111111111</td>
+    					<td>11111111111</td>
+    				</tr>
+    				<tr>
+    					<td>João</td>
+    					<td>joao@gmail.com</td>
+    					<td>2222222222</td>
+    					<td>22222222222</td>
+    				</tr>
+    				<tr>
+    					<td>Joziclei</td>
+    					<td>joziclei@gmail.com</td>
+    					<td>3333333333</td>
+    					<td>33333333333</td>
+    				</tr>
+    				<tr>
+    					<td>Euricléia</td>
+    					<td>euricleia@gmail.com</td>
+    					<td>4444444444</td>
+    					<td>44444444444</td>
+    				</tr>
+    			</tbody>
+    		</table>
+      </div>
+
+      <div id="tableColspanRowspan">
+        <table>
+  			<caption>Students</caption>
+
+  			<thead>
+  				<tr>
+  					<th>Name</th>
+  					<th>Email</th>
+  					<th>RG</th>
+  					<th>CPF</th>
+  				</tr>
+  			</thead>
+
+  			<tfoot>
+  				<tr>
+  					<th>Name</th>
+  					<th>Email</th>
+  					<th>RG</th>
+  					<th>CPF</th>
+  				</tr>
+  			</tfoot>
+
+  			<tbody>
+  				<tr>
+            <td>Zé</td>
+  					<td>ze@gmail.com</td>
+  					<td colspan="2">1111111111</td>
+  					<!-- tirei a coluna -->
+  				</tr>
+			    <tr>
+				     <td>João</td>
+				     <td>joao@gmail.com</td>
+				     <td>2222222222</td>
+				     <td>22222222222</td>
+			    </tr>
+			    <tr>
+				     <td>Joziclei</td>
+				     <td rowspan="2">joziclei@gmail.com</td>
+				     <td>3333333333</td>
+				     <td>33333333333</td>
+			    </tr>
+			    <tr>
+				     <td>Euricléia</td>
+				     <!-- tirei a coluna -->
+				     <td>4444444444</td>
+				     <td>44444444444</td>
+			    </tr>
+		     </tbody>
+  		  </table>
+      </div>
+
+    </section>
+
+    <aside>
+		    <h2>Contact us</h2>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</aside>
+
+    <footer>
+      <p>Author: Yasmin L</p>
+    </footer>
+  </body>
+</html>
