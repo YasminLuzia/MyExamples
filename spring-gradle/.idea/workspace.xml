@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7177dc3-b3f8-4d6b-95e3-572eaccbdf51" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aZy8PPM9BptdtMlnZNfYh2WLaj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercicio5SpringDependencies" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Exercicio4SpringGradleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="luzia.yasmin.exercicio4springgradle.Exercicio4SpringGradleApplication" />
+      <module name="exercicio4springgradle.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="luzia.yasmin.exercicio4springgradle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Exercicio4SpringGradleApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7177dc3-b3f8-4d6b-95e3-572eaccbdf51" name="Default Changelist" comment="" />
+      <created>1586957252434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586957252434</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="404" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586958371270">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="404" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1586958371270" />
+    <state x="445" y="24" key="#com.intellij.ide.util.MemberChooser" timestamp="1586958507565">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="445" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586958507565" />
+    <state x="420" y="81" key="FileChooserDialogImpl" timestamp="1586991910775">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="420" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586991910775" />
+    <state width="1237" height="416" key="GridCell.Tab.0.bottom" timestamp="1586997430242">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="416" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586997430242" />
+    <state width="1237" height="416" key="GridCell.Tab.0.center" timestamp="1586997430242">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="416" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586997430242" />
+    <state width="1237" height="416" key="GridCell.Tab.0.left" timestamp="1586997430242">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="416" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586997430242" />
+    <state width="1237" height="416" key="GridCell.Tab.0.right" timestamp="1586997430242">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="416" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586997430242" />
+    <state x="141" y="0" key="SettingsEditor" timestamp="1586958138693">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586958138693" />
+  </component>
+</project>
